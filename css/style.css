@@ -1,0 +1,290 @@
+/* color {
+    color: rgb(51, 102, 204); biru
+    color: rgb(255, 153, 21); kuning
+    color: rgb(0, 0, 0); item
+    color: rgb(255, 255, 255); putih
+} */
+
+html ,body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+a.nav-link.text-white {
+    color: rgb(79, 130, 231);
+}
+
+
+#navigation-home {
+    display: none;
+}
+
+.article {
+    padding: 10%;
+}
+
+a {
+    color: rgb(97, 123, 165);
+    
+}
+
+    a:hover {
+        text-decoration: none;
+        color: rgb(152, 174, 211)
+    }
+
+.acr {
+    width: 100%;
+}
+
+#form-aduan {
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.mr-3 {
+    width: 150px;
+    height: 150px;
+}
+
+#img {
+    width: 210px;
+    height: 150px;
+}
+
+#logo-kemdikbud {
+    width: 50%;
+    height: 95%;
+}
+
+ul {
+    padding: 0px;
+}
+
+    ul li {
+        padding: 0px;
+        color: #131313;
+        list-style: none;
+        text-decoration: none;
+    }
+
+        ul li p {
+            padding: 0px;
+            text-decoration: none;
+        }
+
+/* .bg-light {
+    background-color: #007bfffa !important;
+} */
+
+#navs {
+    top: 0px;
+    padding-bottom: 10%; 
+}
+
+    a.nav-link.font-weight-light {
+        color: #E0D9D9;
+    }
+
+    a.nav-link.font-weight-light:hover  {
+        color: #FFFFFF 
+    }
+
+#cover {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    background: url(../img/colored-pencils-crayons-school_4460x4460.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    top: 0px;
+}
+
+#logo {
+    text-align: right;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+#title {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+}
+
+    #title h1 {
+        text-align: left;
+        vertical-align: middle;
+        display: table-cell;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        font-size: 2.0em;
+        color: whitesmoke;
+    }
+
+#tombol {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#article #content-article {
+    padding: 5%;
+}
+
+#second-article {
+    padding-bottom: 10%;
+}
+
+.display-4 {
+    padding: 5% 0 5% 0;
+}
+
+#head-index {
+    background-image: url(../img/library-books_4460x4460.jpg);
+    background-attachment: fixed;
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    background-size: cover;
+    top: 0px;
+    color: white;
+    text-align: center;
+    
+}
+
+#index {
+    padding: 10%;
+}
+
+.right-prlx {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.right {
+    background-image: url(../img/edu.jpg);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    background-size: cover;
+    top: 0px;
+    color: white;
+    text-align: center;
+}
+
+#form {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+footer {
+    padding: 4%;
+    background-color: rgb(35, 53, 87);
+    color: whitesmoke;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    /* .mr-3 {
+        display: none;
+    } */
+ }
+
+ @media (max-width: 575.98px) {
+    .cover-content {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    } 
+
+    .cover-title {
+        font-size: 70%;
+        margin: auto;
+    }
+
+    #title h1 {
+        text-align: center;
+    }
+
+    #tombol {
+        text-align: center;
+        padding-top: 80%;
+    }
+    /* .mr-3 {
+        display: none;
+    } */
+ }
+
+@media(max-width: 760px){
+    .mr-3 {
+        display: none;
+    }
+
+    .card-title {
+        font-size: 70%;
+    }
+
+    .card-text {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .card-title {
+        font-size: 70%;
+    }
+
+    .card-text {
+        font-size: 60%;
+    }
+ }
+
+ @media (max-width: 1199.98px) { 
+
+
+    .card-title {
+        font-size: 70%;
+    }
+
+    .card-text {
+        font-size: 60%;
+    }
+  }
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .mr-3 {
+        display: none;
+    }
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .mr-3 {
+        display: none;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .mr-3 {
+        display: none;
+    }
+ } */
+
