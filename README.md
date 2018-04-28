@@ -1,2 +1,2 @@
 # lppptk-kptk.github.io
-Lomba Design Web (SEMOG MENANG!!)
+Lomba Design Web (SEMOGA MENANG!!)
